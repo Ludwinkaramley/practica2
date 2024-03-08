@@ -1,0 +1,249 @@
+#contenedor
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: aqua;
+    width: 1500px;
+    height: 900px;
+    margin: auto;
+
+}
+
+#caja1 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: red;
+    width: 400px;
+    height: 800px;
+    position: relative;
+    left: 30px;
+    padding: 15px;
+    top: 50px;
+}
+
+.caja-1,
+.caja-2,
+.caja-3 {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.caja-1 {
+    background-color: chocolate;
+}
+
+.caja-2 {
+    background-color: rgb(187, 84, 10);
+}
+
+.caja-3 {
+    background-color: rgb(248, 108, 8);
+}
+
+.caja-rectangular,
+.caja-rectangular2,
+.caja-rectangular3 {
+    width: 340px;
+    height: 100px;
+    margin: 10px;
+}
+
+.caja-rectangular {
+    background-color: blue;
+    margin-bottom: 3px;
+}
+
+.caja-rectangular2 {
+    background-color: rgb(97, 97, 138);
+    margin-bottom: 3px; 
+}
+
+.caja-rectangular3 {
+    background-color: rgb(9, 44, 2);
+    margin-bottom: 3px;
+}
+
+.caja-4,
+.caja-5,
+.caja-6 {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.caja-4 {
+    background-color: chocolate;
+}
+
+.caja-5 {
+    background-color: rgb(187, 84, 10);
+}
+
+.caja-6 {
+    background-color: rgb(248, 108, 8);
+}
+
+
+#caja2 {
+    background-color: yellow;
+    width: 400px;
+    height: 800px;
+    position: relative;
+    left: 15px;
+    padding: 15px;
+    top: 50px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.caja-rectangular4,
+.caja-rectangular5,
+.caja-rectangular6,
+.caja-rectangular7,
+.caja-rectangular8,
+.caja-rectangular9,
+.caja-rectangular10 {
+    width: 340px;
+    height: 100px;
+    margin: 10px;
+}
+
+.caja-rectangular4 {
+    background-color: blue;
+}
+
+.caja-rectangular5 {
+    background-color: rgb(97, 97, 138);
+}
+
+.caja-rectangular6 {
+    background-color: rgb(9, 44, 2);
+}
+
+.caja-rectangular7 {
+    background-color: rgb(178, 214, 18);
+}
+
+.caja-rectangular8 {
+    background-color: rgb(17, 10, 59);
+}
+
+.caja-rectangular9 {
+    background-color: rgb(187, 70, 80);
+}
+
+.caja-rectangular10 {
+    background-color: rgb(31, 32, 25);
+}
+
+#caja3 {
+    background-color: green;
+    width: 400px;
+    height: 800px;
+    position: relative;
+    left: 15px;
+    top: 50px;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    padding: 15px;
+}
+
+.caja-7,
+.caja-8,
+.caja-9,
+.caja-10,
+.caja-11,
+.caja-12,
+.caja-13,
+.caja-14,
+.caja-15,
+.caja-16,
+.caja-17,
+.caja-18,
+.caja-19,
+.caja-20,
+.caja-21,
+.caja-22,
+.caja-23,
+.caja-24 {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.caja-7 {
+    background-color: chocolate;
+}
+
+.caja-8 {
+    background-color: rgb(31, 59, 24);
+}
+
+.caja-9 {
+    background-color: rgb(37, 3, 6);
+}
+
+.caja-10 {
+    background-color: rgb(75, 72, 70);
+}
+
+.caja-11 {
+    background-color: rgb(224, 233, 107);
+}
+
+.caja-12 {
+    background-color: rgb(30, 45, 129);
+}
+
+.caja-13 {
+    background-color: rgb(39, 158, 132);
+}
+
+.caja-14 {
+    background-color: rgb(248, 108, 8);
+}
+
+.caja-15 {
+    background-color: rgb(218, 172, 139);
+}
+
+.caja-16 {
+    background-color: rgb(3, 53, 29);
+}
+
+.caja-17 {
+    background-color: rgb(56, 46, 73);
+}
+
+.caja-18 {
+    background-color: rgb(165, 126, 228);
+}
+
+.caja-19 {
+    background-color: rgb(16, 180, 230);
+}
+
+.caja-20 {
+    background-color: rgb(140, 18, 197);
+}
+
+.caja-21 {
+    background-color: rgb(211, 32, 92);
+}
+
+.caja-22 {
+    background-color: rgb(86, 252, 10);
+}
+
+.caja-23 {
+    background-color: rgb(24, 12, 4);
+}
+
+.caja-24 {
+    background-color: rgb(35, 248, 131);
+}
